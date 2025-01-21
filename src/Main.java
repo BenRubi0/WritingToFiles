@@ -12,7 +12,7 @@ public class Main {
     public static void fileWrite(FileWriter writer, String content) {
         // uses a try catch statement just in case there's an exception
         try {
-            writer.write(content + "\n"); // writes the char 'a' to the output file
+            writer.write(content + "\n"); // writes the content to the output file
         } catch (IOException exception) {
             System.out.println(exception.getMessage()); // tells the user what went wrong
         }
